@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+        let num=0;
+        let next=1;
+        let Total;
+        let count=2;
+        document.write(num+" "+next+" ");
+        while (count<50){
+        Total=num+next;
+        count++;
+        document.write(Total+",");
+        num=next;
+        next=Total;
+        }
+        document.write("...")
+</script>
+</body>
+</html>
